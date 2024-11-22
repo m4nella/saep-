@@ -14,14 +14,14 @@
 }
   
 .App-header {
-  background-color: #282c34;
+  background-color: #686c72;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(255, 255, 255);
 }
   
 .App-link {
@@ -42,36 +42,58 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: blue;
-  padding: 10px;
+  background-color: rgb(100, 149, 237); /* Azul mais agradável */
+  padding: 20px 40px;
   color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra elegante */
+  border-radius: 8px;
 }
 
 .title {
-  margin: 0,
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
 .nav {
   display: flex;
-  gap: 15px;
+  gap: 20px;
 }
 
 .Link {
-  color: aliceblue;
+  color: white;
   text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s;
 }
+
+.Link:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Fundo transparente ao passar o mouse */
+  color: #000; /* Muda a cor do texto */
+  transform: scale(1.05); /* Efeito de crescimento */
+  text-decoration: italic; /* Linha decorativa */
+}
+
+.Link:active {
+  transform: scale(0.95); /* Efeito ao clicar */
+}
+
 
 .teste {
   width: 350px;
   height: 30px;
 }
 
-.containner {
+.container {
   /* pass; */
 }
 
 .botao-cadastrar {
-  background-color: #4CAF50; 
+  background-color: #7ebccc; 
   color: white;             
   padding: 10px 20px;        
   border: none;              

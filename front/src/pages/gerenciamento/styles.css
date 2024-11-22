@@ -1,75 +1,63 @@
-form {
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  padding: 20px;
-  max-width: 400px;
-  margin: 20px auto;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+.kanban-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
 }
 
-h2 {
-  text-align: center;
-  color: #333;
-  font-size: 1.5em;
-  margin-bottom: 20px;
+.kanban-column {
+  flex: 1;
+  margin: 0 10px;
+  background-color: #f4f4f9;
+  padding: 40px;
+  border-radius: 3px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-label {
-  display: block;
-  font-weight: bold;
-  color: #555;
-  margin-bottom: 8px;
-}
-
-input[type="text"],
-textarea,
-select {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
+.kanban-card {
+  background-color: #fff;
   border: 1px solid #ddd;
-  border-radius: 4px;
-  font-size: 0.9em;
-  color: #333;
-  box-sizing: border-box;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-textarea {
-  resize: vertical;
-  min-height: 80px;
+.status-container {
+  display: flex; /* Alinha os itens dentro do container horizontalmente */
+  justify-content: flex-start; /* Mantém os itens alinhados à esquerda */
+  align-items: center; /* Centraliza verticalmente os botões */
+  gap: 8px; /* Adiciona espaçamento entre os botões */
+  margin-top: 20px;
 }
 
-button {
-  width: 100%;
-  padding: 10px;
-  background-color: #4CAF50;
-  color: #fff;
-  font-size: 1em;
-  font-weight: bold;
+
+.update-button {
+  background-color: #3c8ce2;
+  color: white;
+  padding: 10px; /* Reduz o tamanho dos botões */
+  font-size: 0.9rem; /* Ajusta o tamanho da fonte */
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-button:hover {
-  background-color: #45a049;
-}
-
-button:active {
-  background-color: #3d8c42;
-}
-
-button:focus {
-  outline: none;
-  box-shadow: 0px 0px 5px rgba(0, 150, 0, 0.5);
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
+  min-width: 70px; /* Largura mínima */
+  max-width: 90px; /* Limita o comprimento máximo */
   align-items: center;
-  background-color: blue;
-  padding: 10px;
+}
+
+.delete-button {
+  background-color: #d63f4e;
   color: white;
+  padding: 10px; /* Reduz o tamanho dos botões */
+  font-size: 0.9rem; /* Ajusta o tamanho da fonte */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  min-width: 70px; /* Largura mínima */
+  max-width: 90px; /* Limita o comprimento máximo */
+  align-items: center;
+}
+
+body{
+  align-items: space-between;
+  justify-content: space-between;
 }

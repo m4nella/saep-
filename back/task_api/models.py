@@ -20,7 +20,7 @@ class Task(models.Model):
     PRIORITY_CHOICES = [
         ('baixa', 'Baixa'),
         ('media', 'Média'),
-        ('alta', 'Alta'),
+        ('alta', 'Alta'),  
     ]
 
     id = models.AutoField(primary_key=True)

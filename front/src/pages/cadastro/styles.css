@@ -30,7 +30,7 @@ select {
   border: 1px solid #ddd;
   border-radius: 4px;
   font-size: 0.9em;
-  color: #333;
+  color: #838181;
   box-sizing: border-box;
 }
 
@@ -42,7 +42,7 @@ textarea {
 button {
   width: 100%;
   padding: 10px;
-  background-color: #4CAF50;
+  background-color: rgb(153, 187, 252);
   color: #fff;
   font-size: 1em;
   font-weight: bold;
@@ -53,14 +53,14 @@ button {
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color: rgb(100, 149, 237);
 }
 
 button:active {
-  background-color: #3d8c42;
+  background-color: rgb(66, 96, 151);
 }
 
 button:focus {
   outline: none;
-  box-shadow: 0px 0px 5px rgba(0, 150, 0, 0.5);
+  box-shadow: 0px 0px 5px rgb(59, 88, 141);
 }

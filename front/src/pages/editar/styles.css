@@ -27,7 +27,7 @@ select {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
-  border: 1px solid #ddd;
+  border: 2px #d4d4d4;
   border-radius: 4px;
   font-size: 0.9em;
   color: #333;
@@ -42,10 +42,9 @@ textarea {
 button {
   width: 100%;
   padding: 10px;
-  background-color: #4CAF50;
+  background-color: #5d93ac;
   color: #fff;
   font-size: 1em;
-  font-weight: bold;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -53,14 +52,14 @@ button {
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color: rgb(88, 141, 238);
 }
 
 button:active {
-  background-color: #3d8c42;
+  background-color: rgb(75, 110, 175);
 }
 
 button:focus {
   outline: none;
-  box-shadow: 0px 0px 5px rgba(0, 150, 0, 0.5);
+  box-shadow: 0px 0px 5px rgb(100, 149, 237);
 }
